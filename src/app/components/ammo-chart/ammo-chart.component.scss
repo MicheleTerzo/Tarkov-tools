@@ -1,0 +1,37 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+
+  .internal-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+    .chart-container {
+      background-color: #223c61;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-right: 3rem;
+    }
+
+    .filters-container {
+      background-color: #223c61;
+      padding: 1rem;
+      border-radius: 1rem;
+      color: #fff;
+
+      .check-container {
+        padding: .5rem;
+
+        input {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+}

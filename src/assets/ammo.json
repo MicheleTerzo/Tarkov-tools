@@ -1,0 +1,538 @@
+[
+  {
+    "color": "#3a86ff",
+    "name": "12x70mm",
+    "series": [
+      {
+        "name": "5.25mm buckshot",
+        "x": 37,
+        "y": 1,
+        "r": ""
+      },
+      {
+        "name": "8.25mm Magnum buckshot",
+        "x": 50,
+        "y": 2,
+        "r": ""
+      },
+      {
+        "name": "6.25mm Express buckshot",
+        "x": 35,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "7mm buckshot",
+        "x": 39,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "Flechette",
+        "x": 25,
+        "y": 31,
+        "r": ""
+      },
+      {
+        "name": "RIP",
+        "x": 265,
+        "y": 2,
+        "r": ""
+      },
+      {
+        "name": "SuperFormance HP slug",
+        "x": 220,
+        "y": 5,
+        "r": ""
+      },
+      {
+        "name": "Grizzly slug",
+        "x": 190,
+        "y": 12,
+        "r": ""
+      },
+      {
+        "name": "Copper Sabot Premier HP slug",
+        "x": 206,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "Lead slug",
+        "x": 167,
+        "y": 15,
+        "r": ""
+      },
+      {
+        "name": "Poleva-3 slug",
+        "x": 140,
+        "y": 17,
+        "r": ""
+      },
+      {
+        "name": "Dual Sabot slug",
+        "x": 85,
+        "y": 17,
+        "r": ""
+      },
+      {
+        "name": "FTX Custom Lite slug",
+        "x": 183,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "Poleva-6u slug",
+        "x": 150,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "makeshift .50 BMG slug",
+        "x": 197,
+        "y": 26,
+        "r": ""
+      },
+      {
+        "name": "AP-20 armor-piercing slug",
+        "x": 164,
+        "y": 37,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#d0f4de",
+    "name": "20x70mm",
+    "series": [
+      {
+        "name": "5.6mm buckshot",
+        "x": 26,
+        "y": 1,
+        "r": ""
+      },
+      {
+        "name": "6.2mm buckshot",
+        "x": 22,
+        "y": 2,
+        "r": ""
+      },
+      {
+        "name": "7.5mm buckshot",
+        "x": 25,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "7.3mm buckshot",
+        "x": 23,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "Devastator slug",
+        "x": 198,
+        "y": 5,
+        "r": ""
+      },
+      {
+        "name": "Poleva-3 slug",
+        "x": 120,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "Star Slug",
+        "x": 154,
+        "y": 16,
+        "r": ""
+      },
+      {
+        "name": "Poleva-6u slug",
+        "x": 135,
+        "y": 17,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#eaac8b",
+    "name": "23x75mm",
+    "series": [
+      {
+        "name": "'Zvezda' flashbang round",
+        "x": 0,
+        "y": 0,
+        "r": ""
+      },
+      {
+        "name": "'Shrapnel-25' buckshot",
+        "x": 78,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "'Shrapnel-10' buckshot",
+        "x": 87,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "'Barrikada' slug",
+        "x": 192,
+        "y": 39,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#ffbe0b",
+    "name": "5.45x39mm",
+    "series": [
+      {
+        "name": "SP",
+        "x": 68,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "HP",
+        "x": 74,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "PRS gs",
+        "x": 60,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "US gs",
+        "x": 65,
+        "y": 15,
+        "r": ""
+      },
+      {
+        "name": "FMJ",
+        "x": 56,
+        "y": 21,
+        "r": ""
+      },
+      {
+        "name": "T gs",
+        "x": 57,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "PS gs",
+        "x": 50,
+        "y": 27,
+        "r": ""
+      },
+      {
+        "name": "PP gs",
+        "x": 48,
+        "y": 33,
+        "r": ""
+      },
+      {
+        "name": "BP gs",
+        "x": 49,
+        "y": 35,
+        "r": ""
+      },
+      {
+        "name": "BT gs",
+        "x": 44,
+        "y": 37,
+        "r": ""
+      },
+      {
+        "name": "7N40",
+        "x": 52,
+        "y": 44,
+        "r": ""
+      },
+      {
+        "name": "BS gs",
+        "x": 40,
+        "y": 51,
+        "r": ""
+      },
+      {
+        "name": "PPBS gs",
+        "x": 37,
+        "y": 62,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#fb5607",
+    "name": "5.56x45mm NATO",
+    "series": [
+      {
+        "name": "Warmageddon",
+        "x": 85,
+        "y": 5,
+        "r": ""
+      },
+      {
+        "name": "HP",
+        "x": 75,
+        "y": 9,
+        "r": ""
+      },
+      {
+        "name": "RRLP",
+        "x": 60,
+        "y": 17,
+        "r": ""
+      },
+      {
+        "name": "SOST",
+        "x": 57,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "M856",
+        "x": 50,
+        "y": 28,
+        "r": ""
+      },
+      {
+        "name": "FMJ",
+        "x": 52,
+        "y": 24,
+        "r": ""
+      },
+      {
+        "name": "M855",
+        "x": 50,
+        "y": 28,
+        "r": ""
+      },
+      {
+        "name": "M856A1",
+        "x": 51,
+        "y": 37,
+        "r": ""
+      },
+      {
+        "name": "M855A1",
+        "x": 44,
+        "y": 45,
+        "r": ""
+      },
+      {
+        "name": "M995",
+        "x": 40,
+        "y": 53,
+        "r": ""
+      },
+      {
+        "name": "SSA AP",
+        "x": 36,
+        "y": 56,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#ff006e",
+    "name": "7.62x39mm",
+    "series": [
+      {
+        "name": "HP",
+        "x": 87,
+        "y": 15,
+        "r": ""
+      },
+      {
+        "name": "US gzh",
+        "x": 56,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "T-45M1 gzh",
+        "x": 62,
+        "y": 30,
+        "r": ""
+      },
+      {
+        "name": "PS gzh",
+        "x": 57,
+        "y": 32,
+        "r": ""
+      },
+      {
+        "name": "BP gzh",
+        "x": 58,
+        "y": 47,
+        "r": ""
+      },
+      {
+        "name": "MAI AP",
+        "x": 46,
+        "y": 58,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#8338ec",
+    "name": "7.62x51mm NATO",
+    "series": [
+      {
+        "name": "Ultra Noiser",
+        "x": 107,
+        "y": 15,
+        "r": ""
+      },
+      {
+        "name": "BCP FMJ",
+        "x": 88,
+        "y": 31,
+        "r": ""
+      },
+      {
+        "name": "TCW SP",
+        "x": 60,
+        "y": 36,
+        "r": ""
+      },
+      {
+        "name": "M80",
+        "x": 80,
+        "y": 41,
+        "r": ""
+      },
+      {
+        "name": "M62 Tracer",
+        "x": 79,
+        "y": 44,
+        "r": ""
+      },
+      {
+        "name": "M61",
+        "x": 70,
+        "y": 64,
+        "r": ""
+      },
+      {
+        "name": "M993",
+        "x": 67,
+        "y": 70,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#ccff33",
+    "name": "9x19mm Parabellum",
+    "series": [
+      {
+        "name": "RIP",
+        "x": 102,
+        "y": 2,
+        "r": ""
+      },
+      {
+        "name": "QuakeMaker",
+        "x": 85,
+        "y": 8,
+        "r": ""
+      },
+      {
+        "name": "PSO gzh",
+        "x": 59,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "Luger CCI",
+        "x": 70,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "T gzh",
+        "x": 58,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "Pst gzh",
+        "x": 54,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "AP 6.3",
+        "x": 52,
+        "y": 30,
+        "r": ""
+      },
+      {
+        "name": "PBP gzh",
+        "x": 52,
+        "y": 39,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "color": "#2ec4b6",
+    "name": "5.7x28mm FN",
+    "series": [
+      {
+        "name": "R37.F",
+        "x": 98,
+        "y": 8,
+        "r": ""
+      },
+      {
+        "name": "SS198LF",
+        "x": 74,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "R37.X",
+        "x": 81,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "SS197SR",
+        "x": 62,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "L191",
+        "x": 58,
+        "y": 33,
+        "r": ""
+      },
+      {
+        "name": "SB193",
+        "x": 54,
+        "y": 35,
+        "r": ""
+      },
+      {
+        "name": "SS190",
+        "x": 49,
+        "y": 37,
+        "r": ""
+      }
+    ]
+  }
+
+]
+

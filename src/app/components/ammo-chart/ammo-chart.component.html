@@ -1,0 +1,33 @@
+<div class="main-container">
+  <div class="internal-container">
+    <div class="chart-container">
+      <ngx-charts-bubble-chart
+        [animations]="true"
+        [customColors]="customColors"
+        [maxRadius]="5"
+        [results]="chartData"
+        [roundDomains]="true"
+        [showXAxisLabel]="true"
+        [showYAxisLabel]="true"
+        [view]="[chartWidth, chartHeight]"
+        [xAxisLabel]="xLabel"
+        [xAxis]="true"
+        [yAxisLabel]="yLabel"
+        [yAxis]="true"
+        style="fill: white"
+      ></ngx-charts-bubble-chart>
+    </div>
+    <div class="filters-container">
+      <h1>Ammunitions Filter</h1>
+      <form [formGroup]="form">
+        <div *ngFor="let type of filtersData; let i = index;"
+             class="check-container">
+          <input [formControlName]="type.name" [id]="i" [name]="type.name"
+                 [style.accent-color]="type.color"
+                 type="checkbox">
+          <label [for]="type.name">{{type.name}}</label>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

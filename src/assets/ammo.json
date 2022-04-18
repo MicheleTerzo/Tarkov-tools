@@ -1,5 +1,6 @@
 [
   {
+    "tag": "shotgun",
     "color": "#3a86ff",
     "name": "12x70mm",
     "series": [
@@ -102,6 +103,7 @@
     ]
   },
   {
+    "tag": "shotgun",
     "color": "#d0f4de",
     "name": "20x70mm",
     "series": [
@@ -156,6 +158,7 @@
     ]
   },
   {
+    "tag": "shotgun",
     "color": "#eaac8b",
     "name": "23x75mm",
     "series": [
@@ -186,6 +189,7 @@
     ]
   },
   {
+    "tag": "rifle",
     "color": "#ffbe0b",
     "name": "5.45x39mm",
     "series": [
@@ -270,6 +274,7 @@
     ]
   },
   {
+    "tag": "rifle",
     "color": "#fb5607",
     "name": "5.56x45mm NATO",
     "series": [
@@ -342,6 +347,7 @@
     ]
   },
   {
+    "tag": "rifle",
     "color": "#ff006e",
     "name": "7.62x39mm",
     "series": [
@@ -384,6 +390,7 @@
     ]
   },
   {
+    "tag": "rifle",
     "color": "#8338ec",
     "name": "7.62x51mm NATO",
     "series": [
@@ -432,6 +439,499 @@
     ]
   },
   {
+    "tag": "rifle",
+    "color": "#ffa69e",
+    "name": ".366 TKM",
+    "series": [
+      {
+        "name": "Geksa",
+        "x": 110,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "FMJ",
+        "x": 98,
+        "y": 23,
+        "r": ""
+      },
+      {
+        "name": "EKO",
+        "x": 73,
+        "y": 30,
+        "r": ""
+      },
+      {
+        "name": "AP-M",
+        "x": 90,
+        "y": 42,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "rifle",
+    "color": "#f0f3bd",
+    "name": ".300 Blackout",
+    "series": [
+      {
+        "name": "Whisper",
+        "x": 90,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "V-Max",
+        "x": 72,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "BCP FMJ",
+        "x": 60,
+        "y": 29,
+        "r": ""
+      },
+      {
+        "name": "M62 Tracer",
+        "x": 54,
+        "y": 34,
+        "r": ""
+      },
+      {
+        "name": "AP",
+        "x": 51,
+        "y": 45,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "rifle",
+    "color": "#fdc5f5",
+    "name": "7.62x54mm R",
+    "series": [
+      {
+        "name": "T-46M gzh",
+        "x": 82,
+        "y": 41,
+        "r": ""
+      },
+      {
+        "name": "LPS gzh",
+        "x": 81,
+        "y": 42,
+        "r": ""
+      },
+      {
+        "name": "PS gzh",
+        "x": 86,
+        "y": 45,
+        "r": ""
+      },
+      {
+        "name": "BT gzh",
+        "x": 78,
+        "y": 59,
+        "r": ""
+      },
+      {
+        "name": "SNB gzh",
+        "x": 75,
+        "y": 62,
+        "r": ""
+      },
+      {
+        "name": "BS gzh",
+        "x": 72,
+        "y": 70,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "rifle",
+    "color": "#008000",
+    "name": ".338 Lapua Magnum",
+    "series": [
+      {
+        "name": "TAC-X",
+        "x": 196,
+        "y": 18,
+        "r": ""
+      },
+      {
+        "name": "UCW",
+        "x": 142,
+        "y": 32,
+        "r": ""
+      },
+      {
+        "name": "FMJ",
+        "x": 122,
+        "y": 47,
+        "r": ""
+      },
+      {
+        "name": "AP",
+        "x": 115,
+        "y": 79,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "rifle",
+    "color": "#a3cef1",
+    "name": "12.7x55mm STs-130",
+    "series": [
+      {
+        "name": "PS12A",
+        "x": 165,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "PS12",
+        "x": 115,
+        "y": 28,
+        "r": ""
+      },
+      {
+        "name": "PS12B",
+        "x": 102,
+        "y": 46,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "rifle",
+    "color": "#4361ee",
+    "name": "9x39mm",
+    "series": [
+      {
+        "name": "SP-5 gs",
+        "x": 68,
+        "y": 38,
+        "r": ""
+      },
+      {
+        "name": "SP-6 gs",
+        "x": 58,
+        "y": 46,
+        "r": ""
+      },
+      {
+        "name": "PAB-9 gs",
+        "x": 62,
+        "y": 48,
+        "r": ""
+      },
+      {
+        "name": "SPP gs",
+        "x": 64,
+        "y": 50,
+        "r": ""
+      },
+      {
+        "name": "BP gs",
+        "x": 60,
+        "y": 55,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#606c38",
+    "name": ".357 Magnum",
+    "series": [
+      {
+        "name": "Soft Point",
+        "x": 108,
+        "y": 12,
+        "r": ""
+      },
+      {
+        "name": "Hollow Point",
+        "x": 99,
+        "y": 18,
+        "r": ""
+      },
+      {
+        "name": "JHP",
+        "x": 88,
+        "y": 24,
+        "r": ""
+      },
+      {
+        "name": "FMJ",
+        "x": 70,
+        "y": 35,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#5c4d7d",
+    "name": ".45 ACP",
+    "series": [
+      {
+        "name": "RIP",
+        "x": 137,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "Hydra-Shock",
+        "x": 105,
+        "y": 13,
+        "r": ""
+      },
+      {
+        "name": "Lasermatch FMJ",
+        "x": 80,
+        "y": 19,
+        "r": ""
+      },
+      {
+        "name": "Match FMJ",
+        "x": 76,
+        "y": 25,
+        "r": ""
+      },
+      {
+        "name": "AP",
+        "x": 70,
+        "y": 38,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#9e2a2b",
+    "name": "4.6x30mm HK",
+    "series": [
+      {
+        "name": "Action SX",
+        "x": 65,
+        "y": 18,
+        "r": ""
+      },
+      {
+        "name": "Subsonic SX",
+        "x": 45,
+        "y": 36,
+        "r": ""
+      },
+      {
+        "name": "FMJ SX",
+        "x": 43,
+        "y": 40,
+        "r": ""
+      },
+      {
+        "name": "AP SX",
+        "x": 35,
+        "y": 53,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#2ec4b6",
+    "name": "5.7x28mm FN",
+    "series": [
+      {
+        "name": "R37.F",
+        "x": 98,
+        "y": 8,
+        "r": ""
+      },
+      {
+        "name": "SS198LF",
+        "x": 74,
+        "y": 10,
+        "r": ""
+      },
+      {
+        "name": "R37.X",
+        "x": 81,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "SS197SR",
+        "x": 62,
+        "y": 20,
+        "r": ""
+      },
+      {
+        "name": "L191",
+        "x": 58,
+        "y": 33,
+        "r": ""
+      },
+      {
+        "name": "SB193",
+        "x": 54,
+        "y": 35,
+        "r": ""
+      },
+      {
+        "name": "SS190",
+        "x": 49,
+        "y": 37,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#312244",
+    "name": "7.62x25mm Tokarev",
+    "series": [
+      {
+        "name": "LRNPC",
+        "x": 66,
+        "y": 7,
+        "r": ""
+      },
+      {
+        "name": "LRN",
+        "x": 64,
+        "y": 8,
+        "r": ""
+      },
+      {
+        "name": "FMJ43",
+        "x": 60,
+        "y": 11,
+        "r": ""
+      },
+      {
+        "name": "AKBS",
+        "x": 58,
+        "y": 12,
+        "r": ""
+      },
+      {
+        "name": "P gl",
+        "x": 58,
+        "y": 14,
+        "r": ""
+      },
+      {
+        "name": "PT gzh",
+        "x": 55,
+        "y": 18,
+        "r": ""
+      },
+      {
+        "name": "Pst gzh",
+        "x": 50,
+        "y": 25,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
+    "color": "#002855",
+    "name": "9x18mm Makarov",
+    "series": [
+      {
+        "name": "SP8 gzh",
+        "x": 67,
+        "y": 1,
+        "r": ""
+      },
+      {
+        "name": "SP7 gzh",
+        "x": 77,
+        "y": 2,
+        "r": ""
+      },
+      {
+        "name": "PSV",
+        "x": 69,
+        "y": 3,
+        "r": ""
+      },
+      {
+        "name": "P gzh",
+        "x": 50,
+        "y": 5,
+        "r": ""
+      },
+      {
+        "name": "PS gs PPO",
+        "x": 55,
+        "y": 6,
+        "r": ""
+      },
+      {
+        "name": "PSO gzh",
+        "x": 54,
+        "y": 5,
+        "r": ""
+      },
+      {
+        "name": "PRS gs",
+        "x": 58,
+        "y": 6,
+        "r": ""
+      },
+      {
+        "name": "PPe gzh",
+        "x": 61,
+        "y": 7,
+        "r": ""
+      },
+      {
+        "name": "PPT gzh",
+        "x": 67,
+        "y": 1,
+        "r": ""
+      },
+      {
+        "name": "Pst gzh",
+        "x": 50,
+        "y": 12,
+        "r": ""
+      },
+      {
+        "name": "RG028 gzh",
+        "x": 65,
+        "y": 13,
+        "r": ""
+      },
+      {
+        "name": "BZhT gzh",
+        "x": 53,
+        "y": 18,
+        "r": ""
+      },
+      {
+        "name": "PstM gzh",
+        "x": 58,
+        "y": 24,
+        "r": ""
+      },
+      {
+        "name": "PBM gzh",
+        "x": 40,
+        "y": 28,
+        "r": ""
+      }
+    ]
+  },
+  {
+    "tag": "smg",
     "color": "#ccff33",
     "name": "9x19mm Parabellum",
     "series": [
@@ -486,53 +986,35 @@
     ]
   },
   {
-    "color": "#2ec4b6",
-    "name": "5.7x28mm FN",
+    "tag": "smg",
+    "color": "#b5838d",
+    "name": "9x21mm Gyurza",
     "series": [
       {
-        "name": "R37.F",
-        "x": 98,
-        "y": 8,
+        "name": "PE gzh",
+        "x": 80,
+        "y": 15,
         "r": ""
       },
       {
-        "name": "SS198LF",
-        "x": 74,
-        "y": 10,
+        "name": "P gzh",
+        "x": 65,
+        "y": 18,
         "r": ""
       },
       {
-        "name": "R37.X",
-        "x": 81,
-        "y": 11,
-        "r": ""
-      },
-      {
-        "name": "SS197SR",
-        "x": 62,
-        "y": 20,
-        "r": ""
-      },
-      {
-        "name": "L191",
-        "x": 58,
-        "y": 33,
-        "r": ""
-      },
-      {
-        "name": "SB193",
-        "x": 54,
+        "name": "PS gzh",
+        "x": 49,
         "y": 35,
         "r": ""
       },
       {
-        "name": "SS190",
-        "x": 49,
-        "y": 37,
+        "name": "BT gzh",
+        "x": 63,
+        "y": 39,
         "r": ""
       }
     ]
   }
-
 ]
 

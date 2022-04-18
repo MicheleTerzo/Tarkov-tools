@@ -25,7 +25,7 @@ export class AmmoChartComponent {
     _ammoService.ammoData$.forEach((data) => {
       this.populateCustomColors(data);
       this.chartData = data;
-      if(this.filtersData.length < 1){
+      if (this.filtersData.length < 1) {
         this.filtersData = data;
       }
     });
@@ -59,6 +59,13 @@ export class AmmoChartComponent {
         }
       }
       this._ammoService.getAmmoData(filtersArray);
+    });
+  }
+
+  resetFilters(): void {
+    Object.entries(this.form.controls).forEach((value) => {
+      if(!value[1].value)
+      value[1].patchValue(true);
     });
   }
 

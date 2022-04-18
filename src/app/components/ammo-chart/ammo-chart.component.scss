@@ -8,14 +8,15 @@
 
   .internal-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 
     .chart-container {
       background-color: #223c61;
       padding: 1rem;
       border-radius: 1rem;
-      margin-right: 3rem;
+      margin-bottom: 3rem;
     }
 
     .filters-container {
@@ -23,15 +24,36 @@
       padding: 1rem;
       border-radius: 1rem;
       color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 50rem;
+      margin-bottom: 3rem;
 
-      .check-container {
-        padding: .5rem;
+      .filter-reset{
+        user-select: none;
+        cursor: pointer;
+      }
 
-        input {
-          margin-right: 1rem;
+      form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .check-container {
+          padding: .5rem;
+          width: 15rem;
+
+          input {
+            margin-right: 1rem;
+          }
         }
       }
+
     }
+
   }
 
 }

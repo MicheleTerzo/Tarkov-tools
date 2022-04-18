@@ -1,5 +1,48 @@
 <div class="main-container">
   <div class="internal-container">
+    <div class="filters-container">
+      <h2>Ammunitions Filters</h2>
+
+      <form [formGroup]="form">
+        <div class="specific-filter">
+          <h4>Shotgun rounds</h4>
+          <ng-container *ngFor="let type of filtersData; let i = index;">
+            <div
+              *ngIf="type.tag === 'shotgun'" class="check-container">
+              <input [formControlName]="type.name" [id]="i" [name]="type.name"
+                     [style.accent-color]="type.color"
+                     type="checkbox">
+              <label [for]="type.name">{{type.name}}</label>
+            </div>
+          </ng-container>
+        </div>
+        <div class="specific-filters">
+          <h4>Rifle rounds</h4>
+          <ng-container *ngFor="let type of filtersData; let i = index;">
+            <div
+              *ngIf="type.tag === 'rifle'" class="check-container">
+              <input [formControlName]="type.name" [id]="i" [name]="type.name"
+                     [style.accent-color]="type.color"
+                     type="checkbox">
+              <label [for]="type.name">{{type.name}}</label>
+            </div>
+          </ng-container>
+        </div>
+        <div class="specific-filters">
+          <h4>Pistol/SMG/PDW</h4>
+          <ng-container *ngFor="let type of filtersData; let i = index;">
+            <div
+              *ngIf="type.tag === 'smg'" class="check-container">
+              <input [formControlName]="type.name" [id]="i" [name]="type.name"
+                     [style.accent-color]="type.color"
+                     type="checkbox">
+              <label [for]="type.name">{{type.name}}</label>
+            </div>
+          </ng-container>
+        </div>
+      </form>
+      <h3 class="filter-reset" (click)="resetFilters()">Reset Filters</h3>
+    </div>
     <div class="chart-container">
       <ngx-charts-bubble-chart
         [animations]="true"
@@ -17,17 +60,6 @@
         style="fill: white"
       ></ngx-charts-bubble-chart>
     </div>
-    <div class="filters-container">
-      <h1>Ammunitions Filter</h1>
-      <form [formGroup]="form">
-        <div *ngFor="let type of filtersData; let i = index;"
-             class="check-container">
-          <input [formControlName]="type.name" [id]="i" [name]="type.name"
-                 [style.accent-color]="type.color"
-                 type="checkbox">
-          <label [for]="type.name">{{type.name}}</label>
-        </div>
-      </form>
-    </div>
+
   </div>
 </div>

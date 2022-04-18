@@ -1,4 +1,5 @@
 export interface IBubbleChartData {
+  tag: string;
   color: string;
   name: string;
   series: IBubbleChartSeries[];

@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {AfterViewInit, Component, ElementRef, HostListener, ViewChild} from '@angular/core';
 import {AmmoDataProviderService} from "../../services/ammo-data-provider.service";
 import {AmmoTypes} from "../../models/ammo-types";
 import {FormControl, FormGroup} from "@angular/forms";
@@ -9,10 +9,10 @@ import {IBubbleChartData} from "../../interfaces/IBubbleChartData";
   templateUrl: './ammo-chart.component.html',
   styleUrls: ['./ammo-chart.component.scss']
 })
-export class AmmoChartComponent {
-
+export class AmmoChartComponent implements AfterViewInit {
+  @ViewChild('mainContainer') mainContainerRef: ElementRef;
   customColors: { name: string, value: string }[] = [];
-  chartWidth: number = 1000;
+  chartWidth: number = 1800;
   chartHeight: number = 700;
   chartData: IBubbleChartData[] = [];
   filtersData: IBubbleChartData[] = [];
@@ -32,6 +32,17 @@ export class AmmoChartComponent {
     _ammoService.getAmmoData();
     this.initializeForm();
     this.registerFormChange();
+    this.resizeChart();
+  }
+
+  ngAfterViewInit() {
+    // this.chartWidth = this.mainContainerRef.nativeElement
+    // console.log(this.mainContainerRef.nativeElement);
+  }
+
+  @HostListener('window:resize', ['$event'])
+  resizeChart(): void {
+    this.chartWidth = window.innerWidth - 100;
   }
 
   populateCustomColors(ammoData: IBubbleChartData[]): void {
@@ -64,8 +75,8 @@ export class AmmoChartComponent {
 
   resetFilters(): void {
     Object.entries(this.form.controls).forEach((value) => {
-      if(!value[1].value)
-      value[1].patchValue(true);
+      if (!value[1].value)
+        value[1].patchValue(true);
     });
   }
 

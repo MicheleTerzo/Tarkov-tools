@@ -1,4 +1,4 @@
-<div class="main-container">
+<div class="main-container" #mainContainer>
   <div class="internal-container">
     <div class="filters-container">
       <h2>Ammunitions Filters</h2>
@@ -49,7 +49,7 @@
         [customColors]="customColors"
         [maxRadius]="5"
         [results]="chartData"
-        [roundDomains]="true"
+        [roundDomains]="false"
         [showXAxisLabel]="true"
         [showYAxisLabel]="true"
         [view]="[chartWidth, chartHeight]"
@@ -57,6 +57,10 @@
         [xAxis]="true"
         [yAxisLabel]="yLabel"
         [yAxis]="true"
+        [xScaleMin]="0"
+        [yScaleMin]="0"
+        [xScaleMax]="270"
+        [yScaleMax]="80"
         style="fill: white"
       ></ngx-charts-bubble-chart>
     </div>

@@ -32,7 +32,7 @@ export class AmmoChartComponent implements AfterViewInit {
     _ammoService.getAmmoData();
     this.initializeForm();
     this.registerFormChange();
-    this.resizeChart();
+    // this.resizeChart();
   }
 
   ngAfterViewInit() {

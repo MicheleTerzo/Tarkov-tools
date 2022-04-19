@@ -1,1 +1,12 @@
+<mat-toolbar color="primary">
+  <div class="toolbar-container">
+    <h1 class="app-title">Tarkov Tools</h1>
+    <span (click)="pageSelected = 'home'" [ngClass]="{'selected': pageSelected === 'home'}" class="internal-link"
+          routerLink="home">Home</span>
+    <span (click)="pageSelected = 'maps'" [ngClass]="{'selected': pageSelected === 'maps'}" class="internal-link"
+          routerLink="maps">Maps</span>
+    <span (click)="pageSelected = 'ammo'" [ngClass]="{'selected': pageSelected === 'ammo'}" class="internal-link"
+          routerLink="ammo">Ammo</span>
+  </div>
+</mat-toolbar>
 <router-outlet></router-outlet>
